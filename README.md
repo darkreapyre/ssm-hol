@@ -70,7 +70,7 @@ A CloudFormation template is a JSON or YAML formatted text file that describes y
     - Leave __InstanceProfile__ blank as we have not yet defined an instance profile.
     - Leave __InstanceTypeApp__ and __InstanceTypeWeb__ as the default free-tier-eligible `t2.micro` value.
     - Select the EC2 KeyName you defined earlier from the list.
-    - In a browser window, go to http://checkip.amazonaws.com/ to get your IP and then enter your IP address in __SSHLocation__ in CIDR notation (i.e., ending in /32).
+    - In a browser window, go to https://checkip.amazonaws.com/ to get your IP and then enter your IP address in __SSHLocation__ in CIDR notation (i.e., ending in /32).
     - Define the __Workload Name__ as `Test`.
     - Choose __Next__.
 3. On the __Options__ page under __Tags__, define a __Key__ of __Owner__, with __Value__ set to the username you choose for your administrator. You can optionally define additional keys. The CloudFormation template will create all the example tags given in the discussion on tagging above.
